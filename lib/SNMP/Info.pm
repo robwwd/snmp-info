@@ -1655,6 +1655,7 @@ sub device_type {
     my %l7sysoidmap = (
         318   => 'SNMP::Info::Layer7::APC',
         5951  => 'SNMP::Info::Layer7::Netscaler',
+        9694  => 'SNMP::Info::Layer7::Arbor',
         14525 => 'SNMP::Info::Layer2::Trapeze',
         12532 => 'SNMP::Info::Layer7::Neoteris',
         26866 => 'SNMP::Info::Layer7::Gigamon',
